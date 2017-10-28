@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="STActivityIndicatorView">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="93w-pS-HV5">
+                    <rect key="frame" x="32" y="22" width="37" height="37"/>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGr-eQ-SJF">
+                    <rect key="frame" x="20" y="69" width="70" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.078431372550000003" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="93w-pS-HV5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="22" id="2kQ-wM-JF3"/>
+                <constraint firstAttribute="bottom" secondItem="iGr-eQ-SJF" secondAttribute="bottom" constant="10" id="4yL-7Z-zZ5"/>
+                <constraint firstItem="iGr-eQ-SJF" firstAttribute="top" secondItem="93w-pS-HV5" secondAttribute="bottom" constant="10" id="6KN-im-T56"/>
+                <constraint firstAttribute="trailing" secondItem="93w-pS-HV5" secondAttribute="trailing" constant="31" id="QcB-hM-tJY"/>
+                <constraint firstItem="iGr-eQ-SJF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="SyT-VS-DNi"/>
+                <constraint firstItem="93w-pS-HV5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="32" id="aIu-M4-PmN"/>
+                <constraint firstAttribute="trailing" secondItem="iGr-eQ-SJF" secondAttribute="trailing" constant="10" id="leO-PS-cT2"/>
+                <constraint firstItem="iGr-eQ-SJF" firstAttribute="top" secondItem="93w-pS-HV5" secondAttribute="bottom" constant="10" id="zeN-Ka-62J"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="activityIndicatorView" destination="93w-pS-HV5" id="ZQT-yV-Orl"/>
+            </connections>
+            <point key="canvasLocation" x="95" y="-61"/>
+        </view>
+    </objects>
+</document>

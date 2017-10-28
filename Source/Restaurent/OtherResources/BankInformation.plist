@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>PlaceHolder</key>
+		<string>Account Holder Name</string>
+		<key>Value</key>
+		<string></string>
+		<key>KeyBoardType</key>
+		<integer>6</integer>
+		<key>SerKey</key>
+		<string>account_holder_name</string>
+	</dict>
+	<dict>
+		<key>PlaceHolder</key>
+		<string>Account Type</string>
+		<key>Value</key>
+		<string>Individual</string>
+		<key>KeyBoardType</key>
+		<integer>0</integer>
+		<key>SerKey</key>
+		<string>account_holder_type</string>
+	</dict>
+	<dict>
+		<key>PlaceHolder</key>
+		<string>Account Number</string>
+		<key>Value</key>
+		<string></string>
+		<key>KeyBoardType</key>
+		<integer>2</integer>
+		<key>SerKey</key>
+		<string>account_number</string>
+	</dict>
+	<dict>
+		<key>PlaceHolder</key>
+		<string>Country</string>
+		<key>Value</key>
+		<string>US</string>
+		<key>KeyBoardType</key>
+		<integer>6</integer>
+		<key>SerKey</key>
+		<string>country</string>
+	</dict>
+	<dict>
+		<key>PlaceHolder</key>
+		<string>Currency</string>
+		<key>Value</key>
+		<string>USD</string>
+		<key>KeyBoardType</key>
+		<integer>0</integer>
+		<key>SerKey</key>
+		<string>currency</string>
+	</dict>
+	<dict>
+		<key>PlaceHolder</key>
+		<string>Email</string>
+		<key>Value</key>
+		<string></string>
+		<key>KeyBoardType</key>
+		<integer>7</integer>
+		<key>SerKey</key>
+		<string>emailId</string>
+	</dict>
+	<dict>
+		<key>PlaceHolder</key>
+		<string>Routing Number</string>
+		<key>Value</key>
+		<string></string>
+		<key>KeyBoardType</key>
+		<integer>2</integer>
+		<key>SerKey</key>
+		<string>routing_number</string>
+	</dict>
+</array>
+</plist>

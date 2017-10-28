@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>USER SETTINGS</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>User Details</string>
+			<key>Image_Icon</key>
+			<string>UserDetails.png</string>
+			<key>isOn</key>
+			<true/>
+			<key>ShowSwitch</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Bank Details</string>
+			<key>Image_Icon</key>
+			<string>BankInfo.png</string>
+			<key>isOn</key>
+			<true/>
+			<key>ShowSwitch</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>SignOut</string>
+			<key>Image_Icon</key>
+			<string>SignOut.png</string>
+			<key>isOn</key>
+			<true/>
+			<key>ShowSwitch</key>
+			<true/>
+		</dict>
+	</array>
+	<key>APP DETAILS</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>About</string>
+			<key>Image_Icon</key>
+			<string>About.png</string>
+			<key>isOn</key>
+			<true/>
+			<key>ShowSwitch</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Terms and Services</string>
+			<key>Image_Icon</key>
+			<string>TnC.png</string>
+			<key>isOn</key>
+			<true/>
+			<key>ShowSwitch</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Privacy</string>
+			<key>Image_Icon</key>
+			<string>Privacy.png</string>
+			<key>isOn</key>
+			<true/>
+			<key>ShowSwitch</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Contact Us</string>
+			<key>Image_Icon</key>
+			<string>ContactUs.png</string>
+			<key>isOn</key>
+			<true/>
+			<key>ShowSwitch</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

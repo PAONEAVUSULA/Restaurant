@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Days</key>
+	<array>
+		<string>MON</string>
+		<string>TUE</string>
+		<string>WED</string>
+		<string>THU</string>
+		<string>FRI</string>
+		<string>SAT</string>
+		<string>SUN</string>
+	</array>
+	<key>Hours</key>
+	<array>
+		<string>00:00AM</string>
+		<string>01:00AM</string>
+		<string>02:00AM</string>
+		<string>03:00AM</string>
+		<string>04:00AM</string>
+		<string>05:00AM</string>
+		<string>06:00AM</string>
+		<string>07:00AM</string>
+		<string>08:00AM</string>
+		<string>09:00AM</string>
+		<string>10:00AM</string>
+		<string>11:00AM</string>
+		<string>12:00PM</string>
+		<string>01:00PM</string>
+		<string>02:00PM</string>
+		<string>03:00PM</string>
+		<string>04:00PM</string>
+		<string>05:00PM</string>
+		<string>06:00PM</string>
+		<string>07:00PM</string>
+		<string>08:00PM</string>
+		<string>09:00PM</string>
+		<string>10:00PM</string>
+		<string>11:00PM</string>
+	</array>
+</dict>
+</plist>
